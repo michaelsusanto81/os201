@@ -1,0 +1,26 @@
+Script started on Mon 01 Jun 2020 01:49:08 PM WIB
+]0;michael.susanto81@badak: ~michael.susanto81@badak:~$ PS1="$ "
+$ echo $GitHubUser
+michaelsusanto81
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200601-134932-f1ef-michael.susanto81/> 
+$ PS1="\$(eval \$PSTAMP)"
+200601-134940-b919-michael.susanto81/> date
+Mon Jun  1 13:49:44 WIB 2020
+200601-134944-4ae0-michael.susanto81/> gpg2 --listk[K-keys
+/home/fasilkom/mahasiswa/m/michael.susanto81/.gnupg/pubring.gpg
+---------------------------------------------------------------
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+pub   4096R/88A58B40 2020-02-24
+uid       [ultimate] Michael Susanto (OS Fasilkom UI) <michael.susanto81@ui.ac.id>
+sub   4096R/55BB05FA 2020-02-24
+
+200601-134951-1fd3-michael.susanto81/> exit
+exit
+
+Script done on Mon 01 Jun 2020 01:49:59 PM WIB
