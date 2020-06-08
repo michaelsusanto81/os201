@@ -10,4 +10,4 @@ permalink: /About/
 * I'm from University of Indonesia, currently fighting for my bachelor degree in Computer Science.
 * You can learn more about me in my personal website [here](https://michaelto.herokuapp.com)
 
--- MS
+*-- MS --*
