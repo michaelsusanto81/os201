@@ -1,0 +1,37 @@
+Script started on 2020-06-09 11:06:55+07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="142" LINES="38"]
+]0;michael@michael-N43SL: ~/Downloads/os201/UAS[01;32mmichael@michael-N43SL[00m:[01;34m~/Downloads/os201/UAS[00m$ PS1="$ "
+$ echo $GitHubUser
+michaelsusanto81
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200609-110723-d5ca-UAS/> 
+$ PS1="\$(eval \$PSTAMP)"
+200609-110729-93f6-UAS/> echo -e $CEKSAYA
+michaelsusanto81 ZCZCSCRIPTSTART 200601-134908 michaelsusanto81 
+michaelsusanto81 michaelsusanto81 200601-134932-f1ef-michael.susanto81/ 200601-134932 SEQOK SUMOK f1efba4c 
+michaelsusanto81 michaelsusanto81 200601-134940-b919-michael.susanto81/ 200601-134940 SEQOK SUMOK b919532e 
+michaelsusanto81 michaelsusanto81 200601-134944-4ae0-michael.susanto81/ 200601-134944 SEQOK SUMOK 4ae025d5 
+michaelsusanto81 michaelsusanto81 200601-134951-1fd3-michael.susanto81/ 200601-134951 SEQOK SUMOK 1fd30500 
+michaelsusanto81 ZCZCSCRIPTSTOP 200601-134959 SEQOK 
+
+200609-110735-c9aa-UAS/> echo -e $CEKSEBELA1
+michaelsusanto81 ZCZCSCRIPTSTART 200604-094657 mlhmg 
+michaelsusanto81 mlhmg 200604-094721-9794-muhammad.ilham83/ 200604-094721 SEQOK SUMOK 97949523 
+michaelsusanto81 mlhmg 200604-094729-6b21-muhammad.ilham83/ 200604-094729 SEQOK SUMOK 6b21b617 
+michaelsusanto81 mlhmg 200604-094742-b9cd-muhammad.ilham83/ 200604-094742 SEQOK SUMOK b9cd373c 
+michaelsusanto81 mlhmg 200604-094756-34fb-muhammad.ilham83/ 200604-094756 SEQOK SUMOK 34fbc917 
+michaelsusanto81 ZCZCSCRIPTSTOP 200604-094803 SEQOK 
+
+200609-110742-c595-UAS/> echo -e $CEKSEBELA2
+michaelsusanto81 ZCZCSCRIPTSTART 200607-195417 MNatalnael 
+michaelsusanto81 MNatalnael 200607-195445-7daf-pjj/ 200607-195445 SEQOK SUMOK 7dafba04 
+michaelsusanto81 MNatalnael 200607-195450-af98-pjj/ 200607-195450 SEQOK SUMOK af98cb93 
+michaelsusanto81 MNatalnael 200607-195453-a5c8-pjj/ 200607-195453 SEQOK SUMOK a5c8930d 
+michaelsusanto81 MNatalnael 200607-195502-f00e-pjj/ 200607-195502 SEQOK SUMOK f00efdc2 
+michaelsusanto81 ZCZCSCRIPTSTOP 200607-195507 SEQOK 
+
+200609-110749-c7d8-UAS/> exit
+exit
+
+Script done on 2020-06-09 11:07:55+07:00 [COMMAND_EXIT_CODE="0"]
